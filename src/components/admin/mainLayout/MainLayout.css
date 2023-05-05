@@ -1,0 +1,22 @@
+.main-content {
+  width: calc(100% - 64px);
+  transition: width 0.2s ease-out;
+}
+
+.main-content.collapsed {
+  width: calc(100% - 32px);
+}
+
+.sidebar {
+  width: 64px;
+  transition: width 0.2s ease-out;
+}
+
+.sidebar.collapsed {
+  width: 32px;
+}
+
+/* add this CSS */
+.header-collapsed {
+  width: calc(100% - 32px);
+}
